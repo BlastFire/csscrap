@@ -1,0 +1,51 @@
+/*---------------- CLEARFIX hack --------------------*/
+
+.clearfix:after {
+  content: '';
+  display: table;
+  line-height: 0;
+  font-size: 0;
+  text-indent: -4000;
+  clear: both;
+}
+
+/*---------------- CLEARFIX hack end ----------------*/
+
+.header .topNav {
+    background-color: #464843;
+    border-radius: 15px 15px 0px 15px;
+    list-style-type: none;
+}
+
+.topNav li {
+    float: left;
+}
+
+.topNav li a {
+    display: block;
+    color: #EDEDED;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+.header .btmNav {
+    background-color: #EBEB90;
+    list-style-type: none;
+    margin-top: -25px;
+    position: absolute;
+    z-index: -9999;
+}
+
+.btmNav li {
+    float: left;
+}
+
+.btmNav li a {
+    display: block;
+    color: #464843;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
