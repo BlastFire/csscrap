@@ -2,19 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Title</title>
 </head>
 <body>
 
     <div class="header">
-        <ul class="topNav clearfix">
+
+        <div class="sub-nav">
+            <div class="sub-nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About Av</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Updates</a></li>
+                    <li><a href="#">Follow</a></li>
+                </ul>
+            </div>
+            <div class="sd-container">
+                <div class="search-container">
+                    <div class="search">
+                        <input type="text" class="filter-search" placeholder="Search">
+                        <i id="filtersubmit" class="fa fa-search"></i>
+                    </div>
+                </div>
+                <div class="desc-container">
+                    <h1>Ev Solutions</h1>
+                    <span>Some text</span>
+                </div>
+            </div>
+        </div>
+
+        <ul class="top-nav">
             <li><a href="#">An Ev 101</a></li>
             <li><a href="">Our Products</a></li>
             <li><a href="#">Our Services</a></li>
             <li><a href="#">News Room</a></li>
         </ul>
-        <ul class="btmNav clearfix">
+        <ul class="btm-nav">
             <li><a href="#">At home</a></li>
             <li><a href="">Public Charging</a></li>
             <li><a href="#">Fleets</a></li>
@@ -24,6 +53,31 @@
             <li><a href="#">Products Index</a></li>
         </ul>
     </div>
+
+    <br />
+    <br />
+    <!-- Card test -->
+    <div class="card">
+    <div class="card-header">
+
+    </div>
+    <div class="card-container">
+        <h4><b>John Doe</b></h4> 
+        <span>Architect & Engineer</span> 
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+                <div class="test">
+                    <a href="#">test</a>
+                    <i id=arrow-right class="fa fa-angle-right"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+
 
 </body>
 </html>
