@@ -191,7 +191,19 @@ z-index: 2;
     color: #7B7B7B;
     cursor:pointer;
     width: 0;
+}
 
+.test {
+    position: relative;
+}
+
+.test a:after {
+    position: absolute;
+    content: '';
+    background: url('../img/arrow.png') no-repeat;
+    top: 7px;right: 6px;
+    width: 5px;
+    height: 9px;
 }
 
 
