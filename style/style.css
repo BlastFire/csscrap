@@ -217,6 +217,7 @@ z-index: 2;
 
 .card-content img {
     float: left;
+    margin: 0 10px 10px 0;
 }
 
 .card-footer ul {
