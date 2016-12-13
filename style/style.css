@@ -15,6 +15,7 @@ body, html {
 }
 
 /*---------------- CLEARFIX hack end ----------------*/
+
 .header {
     background: #c5cbd6; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#c5cbd6, #e3ecf9); /* For Safari 5.1 to 6.0 */
@@ -29,66 +30,6 @@ body, html {
     margin: 0 auto;
 }
 
-.redir-links ul {
-    text-align: right;
-    margin: 0;
-    padding: 0;
-}
 
-.redir-links li {
-    display: inline-block;
-}
 
-.redir-links a {
-    display: block;
-    color: #464843;
-    list-style: none;
-    text-decoration: none;
-    padding: 5px 6px;
-    font-size: 0.7em;
-}
-
-.sitedesc-search {
-    display: block;
-    position: relative;
-}
-
-.site-description {
-    float: left;
-}
-
-.search {
-    float: right;
-}
-
-.search input {
-    width: 250px;
-    height: 32px;
-    background: #fff;
-    border: 1px solid #aaa;
-    border-radius: 7px 0 7px 7px;
-    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
-    text-indent: 10px;
-    font-size: 0.6em;
-}
-
-.filter-search {
-    width: 250px;
-    height: 32px;
-    background: #fcfcfc;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
-    text-indent: 32px;
-}
-
-#filtersubmit {
-    position: relative;
-    z-index: 1;
-    left: -25px;
-    top: 1px;
-    color: #7B7B7B;
-    cursor:pointer;
-    width: 0;
-}
 
