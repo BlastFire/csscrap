@@ -30,6 +30,56 @@ body, html {
     margin: 0 auto;
 }
 
+.header-section {
+    display: flex;                   /* defines flexbox */
+    flex-direction: column;          /* top to bottom */
+}
+
+.header-section-description {
+}
+
+.header-section-links-search {
+    align-items: flex-end;
+}
+
+.header-section-links li {
+    display: inline-block;
+}
+
+.header-section-links a {
+    display: block;
+    color: #464843;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 6px;
+    font-size: 0.7em;
+}
+
+.filter-search {
+    width: 250px;
+    height: 32px;
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+    text-indent: 32px;
+}
+
+#filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: -25px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+}
+
+.nav {
+
+}
+
+
 
 
 
