@@ -43,7 +43,7 @@ body, html {
 }
 
 .header-section-links {
-    padding: 0;
+    padding-left: 0;
 }
 
 .header-section-links li {
@@ -55,8 +55,8 @@ body, html {
     color: #464843;
     list-style: none;
     text-decoration: none;
-    padding: 5px 6px;
-    font-size: 0.7em;
+    padding: 5px 9px;
+    font-size: 0.8em;
 }
 
 .filter-search {
@@ -66,22 +66,111 @@ body, html {
     border: 1px solid #aaa;
     border-radius: 5px;
     box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
-    text-indent: 32px;
+    text-indent: 18px;
 }
 
 #filtersubmit {
     position: relative;
     z-index: 1;
-    left: 125px;
-    top: -20px;
+    left: 406px;
+    top: -26px;
     color: #7B7B7B;
     cursor:pointer;
     width: 0;
 }
 
-.nav {
-
+.twitter:after {
+    content: url("../img/twitter-icon.png");
+    padding: 0 0 0 10px;
+    width: 16px;
+    height: 15px;
+    position: absolute;
 }
+
+/* Navigation */
+.main-nav {
+    background-color: #464843;
+    border-radius: 15px 15px 0px 15px;
+    list-style-type: none;
+    margin: 0;
+    z-index: 1;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    display: block;
+    color: #EDEDED;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+.main-nav li a:hover {
+    color: #EBEB90;
+}
+
+.sub-nav {
+    background-color: #EBEB90;
+    list-style-type: none;
+    border-radius: 0 0 15px 15px;
+    margin: 0;
+}
+
+.sub-nav li {
+    display: inline-block;
+}
+
+.sub-nav li a {
+    display: block;
+    color: #464843;
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.sub-nav li a:hover {
+    background-color: #464843;
+    color: #EBEB90;
+}
+
+.header-description {
+    padding: 0 0 125px 0;
+}
+
+/* Content */
+.products {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 -55px;
+    padding: 55px;
+}
+
+.product {
+    border: 1px solid green;
+    width: 436px;
+    height: 450px;
+    padding: 10px;
+}
+
+/*
+.product:nth-child(3n+2) {
+    border: 1px solid green;
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    margin: 0 50px
+}
+*/
+
+
+
 
 
 
